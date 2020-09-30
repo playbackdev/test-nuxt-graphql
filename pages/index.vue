@@ -116,16 +116,7 @@ export default {
     text-align: center;
   }
 
-  .table-products td button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .table-products td:last-child button {
-    width: 30px;
-    height: 30px;
-    padding: 5px;
+  button {
     border: 1px solid rgb(140, 140, 140);
     box-shadow: 0 1px 2px rgb(160, 160, 160);
     border-radius: 3px;
@@ -133,12 +124,17 @@ export default {
     transition: all 0.3s ease;
   }
 
-  .table-products td:last-child button:hover {
+  button:hover {
     background: rgb(240,240,240);
     box-shadow: 0 1px 4px rgb(140, 140, 140);
     border: 1px solid rgb(30, 30, 30);
     cursor: pointer;
   }
 
-
+  .table-products td:last-child button {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    
+  }
 </style>

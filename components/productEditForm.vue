@@ -1,6 +1,7 @@
 <template>
   <div class="form-wrapper">
     <div class="form-container">
+      <h2>Editing</h2>
       <form>
         <div class="form-item">
           <label for="id-product-name">Наименование</label>
@@ -76,9 +77,16 @@
   }
 
   .form-container form .form-item {
-
     clear: both;
     text-align: right;
     margin: 10px;
+  }
+
+  .form-container button {
+    padding: 5px;
+  }
+
+  .form-container input {
+    min-width: 300px;
   }
 </style>

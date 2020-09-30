@@ -31,7 +31,6 @@
         methods: {
             setPage(incr) {
                 let tmp = this.currentPage + incr;
-                //добавить проверку на максимум
                 this.currentPage = tmp < 1 ? 1 : tmp;
             },
         }
